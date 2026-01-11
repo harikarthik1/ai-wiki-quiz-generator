@@ -48,7 +48,7 @@ function GenerateQuiz() {
       setLoading(true);
       setQuizData(null);
 
-      const res = await fetch("http://127.0.0.1:8000/generate-quiz", {
+      const res = await fetch("https://wiki-quiz-backend-gh7d.onrender.com/generate-quiz", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ url }),
@@ -170,7 +170,7 @@ function History() {
   const [selected, setSelected] = useState(null);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/quizzes")
+    fetch("https://wiki-quiz-backend-gh7d.onrender.com/quizzes")
       .then((r) => r.json())
       .then(setList);
   }, []);
