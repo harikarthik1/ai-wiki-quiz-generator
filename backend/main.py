@@ -14,7 +14,10 @@ from cleanup import delete_old_quizzes
 app = FastAPI(title="AI Wikipedia Quiz Generator")
 
 
-Base.metadata.create_all(bind=engine)
+@app.on_event("startup")
+def startup_event():
+    Base.metadata.create_all(bind=engine)
+
 
 
 app.add_middleware(
