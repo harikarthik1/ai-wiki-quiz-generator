@@ -1,0 +1,78 @@
+{
+  "id": 1,
+  "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+  "title": "Alan Turing",
+  "summary": "",
+  "sections": [],
+  "quiz": {
+    "quiz_questions": [
+      {
+        "difficulty": "easy",
+        "question": "What year was Alan Turing born?",
+        "options": [
+          "1954",
+          "1912",
+          "1938",
+          "2013"
+        ],
+        "correct_answer": "1912",
+        "explanation": "Alan Mathison Turing was born on 23 June 1912."
+      },
+      {
+        "difficulty": "easy",
+        "question": "During World War II, where did Alan Turing work as part of Britain's codebreaking efforts?",
+        "options": [
+          "Princeton University",
+          "National Physical Laboratory",
+          "Bletchley Park",
+          "University of Manchester"
+        ],
+        "correct_answer": "Bletchley Park",
+        "explanation": "During World War II, Turing worked for the Government Code and Cypher School at Bletchley Park, Britain's codebreaking centre."
+      },
+      {
+        "difficulty": "medium",
+        "question": "Which of the following machines did Alan Turing design at the National Physical Laboratory after World War II?",
+        "options": [
+          "Enigma machine",
+          "Turing machine",
+          "Automatic Computing Engine",
+          "Manchester computer"
+        ],
+        "correct_answer": "Automatic Computing Engine",
+        "explanation": "After the war, Turing worked at the National Physical Laboratory, where he designed the Automatic Computing Engine, one of the first designs for a stored-program computer."
+      },
+      {
+        "difficulty": "medium",
+        "question": "What significant action did Queen Elizabeth II take regarding Alan Turing in 2013?",
+        "options": [
+          "She issued an official apology",
+          "She unveiled a statue",
+          "She granted a pardon",
+          "She named an award after him"
+        ],
+        "correct_answer": "She granted a pardon",
+        "explanation": "Queen Elizabeth II granted a pardon in 2013."
+      },
+      {
+        "difficulty": "hard",
+        "question": "What was the *informal* term used to refer to the 2017 UK law that retroactively pardoned men for historical homosexual acts?",
+        "options": [
+          "The Bletchley Park Act",
+          "The Enigma Pardon",
+          "The Alan Turing Law",
+          "The Cypher School Act"
+        ],
+        "correct_answer": "The Alan Turing Law",
+        "explanation": "The term 'Alan Turing law' is used informally to refer to a 2017 law in the UK that retroactively pardoned men cautioned or convicted under historical legislation that outlawed homosexual acts."
+      }
+    ]
+  },
+  "related_topics": [
+    "Alan Turing",
+    "Turing machine",
+    "Bletchley Park",
+    "Enigma machine",
+    "Theoretical computer science"
+  ]
+}
