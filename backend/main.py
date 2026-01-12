@@ -83,7 +83,11 @@ def generate_quiz(data: UrlRequest, db: Session = Depends(get_db)):
         }
 
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        print("GENERATE QUIZ ERROR:", str(e))
+        raise HTTPException(
+            status_code=500,
+            detail="Quiz generation failed. Check backend logs."
+        )
 
 
 @app.get("/quizzes")
