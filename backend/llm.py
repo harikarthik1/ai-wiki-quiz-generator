@@ -36,7 +36,7 @@ CONTENT:
 """
 
     response = client.models.generate_content(
-        model="models/gemini-2.5-flash",
+        model="models/gemini-2.5-flash-lite",
         contents=prompt
     )
 
@@ -45,13 +45,13 @@ CONTENT:
 
 def generate_related_topics(text: str):
     prompt = f"""
-From the content below, suggest 3–5 related Wikipedia topics.
+            From the content below, suggest 3–5 related Wikipedia topics.
 
-Return ONLY JSON array.
+            Return ONLY JSON array.
 
-CONTENT:
-{text}
-"""
+            CONTENT:
+            {text}
+    """
 
     response = client.models.generate_content(
         model="models/gemini-2.5-flash",
